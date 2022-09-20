@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cyan__primary: hsl(179, 62%, 43%);
+  --bright-yellow__primary: hsl(71, 73%, 54%);
+  --light-gray__neutral: hsl(204, 43%, 93%);
+  --grayish-blue__neutral: hsl(218, 22%, 67%);
+}
+
+body {
+  min-height: 100vh;
+  font-family: Karla;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
