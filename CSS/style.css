@@ -123,3 +123,29 @@ body {
 .third-article__text {
   color: white;
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    padding: 30px;
+  }
+  .grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .grid-item-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .grid-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .second-article__main-container {
+    border-bottom-left-radius: 0px;
+  }
+  .third-article__container {
+    border-bottom-left-radius: 10px;
+  }
+}
